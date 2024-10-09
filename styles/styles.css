@@ -98,12 +98,12 @@ header {
 }
 
 #menu-red {
-    background-color: red;
-    box-shadow: red 0px 0px 200px 0px;
+    background-color: black;
+    box-shadow: black 0px 0px 200px 0px;
 }
 
 #menu-blue {
-    background-color: blue;
+    background-color: black;
     box-shadow: blue 0px 0px 200px 0px;
 }
 
@@ -128,7 +128,7 @@ header {
 }
 
 .menu ul li a:hover {
-    color: black;
+    color: blue;
 }
 
 h1 {
@@ -148,9 +148,12 @@ section {
     border-radius: 20px;
 
     background-color: var(--bg-color);
-    box-shadow: var(--shadow-color) 0px 0px 200px 0px;
+    box-shadow: var(--shadow-color) 0px 0px 200px 0px, var(--text-color) 0px 0px 20px 0px;
+
 
     margin-bottom: 40px;
+
+    border: white 1px solid;
 }
 
 #title-orange {
