@@ -378,3 +378,42 @@ form input, form select {
 .pushable:focus:not(:focus-visible) {
     outline: none;
 }
+
+.douglas {
+    display: grid;
+    grid-template-columns: 20% 75%;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 5%;
+    grid-template-areas: 'banner banner'  '. .'  'footer footer';
+}
+
+.douglas #main-body {
+    width: 100%;
+}
+
+.douglas #main-body main{
+    width: 95%;
+    margin: 0px;
+}
+
+.douglas nav {
+    height: 80%;
+    width: 100%;
+}
+
+.douglas .menu ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.douglas .menu ul li {
+    margin: 40px;
+}
+
+.banner-img {
+    grid-area: banner;
+}
+
+footer {
+    grid-area: footer;
+}
